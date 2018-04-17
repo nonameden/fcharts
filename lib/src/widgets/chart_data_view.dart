@@ -209,7 +209,7 @@ class _ChartDataViewState extends State<ChartDataView>
       child: new CustomPaint(
         key: _paintKey,
         painter: _painter,
-        child: new AspectRatio(aspectRatio: 1.0),
+//        child: new AspectRatio(aspectRatio: 1.0),
       ),
     );
   }
